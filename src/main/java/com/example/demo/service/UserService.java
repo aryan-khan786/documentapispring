@@ -1,0 +1,13 @@
+package com.example.demo.service;
+
+import com.example.demo.model.User;
+
+public interface UserService {
+
+	User createUser(User user);
+
+	User getUserById(Integer id);
+
+	User getUserByUsername(String username);
+
+}
